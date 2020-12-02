@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="cityNames">
+        <item>Jaipur</item>
+        <item>Udaipur</item>
+        <item>Chittorgarh</item>
+        <item>Bikaner</item>
+        <item>Jodhpur</item>
+    </string-array>
+</resources>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1035426123954",
+    "firebase_url": "https://royal-rajasthan.firebaseio.com",
+    "project_id": "royal-rajasthan",
+    "storage_bucket": "royal-rajasthan.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1035426123954:android:c8431ffca5dc16995179ab",
+        "android_client_info": {
+          "package_name": "com.sphurti.royalrajasthan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1035426123954-r8ikigec94e1dlognm9e31sgdbcq1ipd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sphurti.royalrajasthan",
+            "certificate_hash": "cda10f0100791e9e248d79bb8f38280b4b2d39ae"
+          }
+        },
+        {
+          "client_id": "1035426123954-un7sr7uuhu9q313vo1j9g0p6oct0a7fv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqRW5EZGYQtMCfTQsnv7spQa8zFVG-9Ns"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1035426123954-un7sr7uuhu9q313vo1j9g0p6oct0a7fv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

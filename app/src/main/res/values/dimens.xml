@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="top_bar_height">85dp</dimen>
+    <dimen name="navigation_bar_height">48dp</dimen>
+    <dimen name="grid_top_padding">112dp</dimen>
+    <dimen name="grid_bottom_padding">76dp</dimen>
+    <dimen name="grid_item_horizontal_space">5dp</dimen>
+    <dimen name="card_view_corner_radius">5dp</dimen>
+    <dimen name="small_text_size">10sp</dimen>
+    <dimen name="h1_text_size">24sp</dimen>
+    <dimen name="h2_text_size">14sp</dimen>
+    <dimen name="h3_text_size">12sp</dimen>
+    <dimen name="heading_padding_top">24dp</dimen>
+    <dimen name="progressCircleStrokeWidth">0.8dp</dimen>
+    <dimen name="progressDotRadius">3dp</dimen>
+    <dimen name="progressCircleRadius1">35dp</dimen>
+    <dimen name="progressCircleRadius2">25dp</dimen>
+    <dimen name="progressCircleRadius3">15dp</dimen>
+</resources>

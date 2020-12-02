@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sphurti.royalrajasthan">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/applogo"
+        android:label="@string/app_name"
+
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".TripsActivity" android:parentActivityName=".Home">
+
+        </activity>
+
+        <activity android:name=".TrainActivity" android:parentActivityName=".Home">
+
+        </activity>
+        <activity android:name=".MajorCitiesActivity" android:parentActivityName=".Home">
+
+        </activity>
+        <activity android:name=".CityActivity" android:parentActivityName=".MajorCitiesActivity" >
+
+        </activity>
+        <activity android:name=".LoginActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Home" >
+
+        </activity>
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>

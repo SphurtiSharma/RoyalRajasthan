@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Royal_Rajasthan.iml" filepath="$PROJECT_DIR$/.idea/modules/Royal_Rajasthan.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Royal_Rajasthan.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Royal_Rajasthan.app.iml" />
+    </modules>
+  </component>
+</project>

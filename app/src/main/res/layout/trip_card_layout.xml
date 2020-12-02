@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#2C2C33"
+    android:orientation="vertical">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintlayout_trip_card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#17171B"
+        android:padding="1dp">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView_trip_card"
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:layout_marginTop="1dp"
+            android:clipChildren="true"
+            app:layout_constraintBottom_toTopOf="@+id/textView3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints">
+
+            <ImageView
+                android:id="@+id/trip_card_image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF"
+                android:backgroundTint="#65000000"
+                android:backgroundTintMode="src_over"
+                android:foregroundTint="#C4000000"
+                android:foregroundTintMode="src_in"
+                android:scaleType="centerCrop" />
+
+            <TextView
+                android:id="@+id/trip_to_location"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|start"
+                android:background="@drawable/black_gradient"
+                android:gravity="start|bottom"
+                android:paddingHorizontal="@dimen/grid_item_horizontal_space"
+                android:paddingTop="@dimen/heading_padding_top"
+                android:paddingBottom="10dp"
+                android:textAppearance="@style/libreFamily"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textViewTripDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|start"
+                android:layout_marginStart="@dimen/grid_item_horizontal_space"
+                android:layout_marginBottom="50dp"
+                android:alpha="1"
+                android:fontFamily="@font/libre"
+                android:gravity="start|bottom"
+                android:text="Explore the beauty of India."
+                android:textAppearance="@style/H3"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                android:textStyle="bold|italic" />
+        </androidx.cardview.widget.CardView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

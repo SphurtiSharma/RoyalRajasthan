@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Royal Rajasthan</string>
+    <string name="userId">User Id</string>
+    <string name="password">Password</string>
+    <string name="clickheretoSignUp">New user? Click here to Sign Up</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="signUp">New user? Sign Up!</string>
+    <string name="butonPlanTrip" />
+    <string name="btnPlanTrip">Plan Trip</string>
+    <string name="buttonBookTrip">Plan</string>
+    <string name="textViewPlantrip">Plan a Trip</string>
+    <string name="dateFrom">From</string>
+    <string name="dateTo">To</string>
+    <string name="bestTime">Best time to book: Oct. to Feb.</string>
+    <string name="duration">Trip Duration: 7Nights/8 Days</string>
+    <string name="booking">For booking and more details, click below:</string>
+    <string name="website">www.palacesonwheels.com/booking.php</string>
+    <string name="contact">+91 98112 04347</string>
+    <string name="contact2">Contact Number: +91 98112 04347</string>
+</resources>
